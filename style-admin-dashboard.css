@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sidebar{
+    background-color: #ffc02d;
+    display: flex;
+    width: 20%;
+    height: 100vh;    
+    display: list-item;
+}
+.title-logo{
+   display: flex;
+   align-items: flex-start;
+}
+.title-logo img{
+    width: 50px;
+    height: 50px;
+    margin: 13px;
+    margin-right: 0px;
+    
+}
+.title-logo h1{
+    color: black;
+    font-size: 30px;
+    margin: 20px;
+}
+.logos{
+    display: flex;
+    padding: 15px;
+}
+.logos img{
+    width: 30px;
+    height: 30px;
+    margin: 13px;
+    scroll-margin-left: 10px;
+}
+.logos button{
+    background-color: #ffc02d;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
