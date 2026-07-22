@@ -8,7 +8,7 @@
     display: flex;
     width: 20%;
     height: 100vh;    
-    display: list-item;
+    flex-direction: column;
 }
 .title-logo{
    display: flex;
@@ -26,17 +26,162 @@
     font-size: 30px;
     margin: 20px;
 }
-.logos{
+.home{
     display: flex;
-    padding: 15px;
+    padding: 2px 15px;
 }
-.logos img{
+.home img{
     width: 30px;
     height: 30px;
     margin: 13px;
     scroll-margin-left: 10px;
 }
-.logos button{
+.home button{
+    background-color: #ffc02d;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+.profile{
+    display: flex;
+    padding: 2px 15px;
+}
+.profile img{
+    width: 30px;
+    height: 30px;
+    margin: 13px;
+    scroll-margin-left: 10px;
+
+}
+.profile button{
+    background-color: #ffc02d;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+.messages{
+    display: flex;
+    padding: 2px 15px;
+}
+.messages img{
+    width: 30px;
+    height: 30px;
+    margin: 13px;
+    scroll-margin-left: 10px;
+
+}
+.messages button{
+    background-color: #ffc02d;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+.history{
+    display: flex;
+    padding: 2px 15px;
+}
+.history img{
+    width: 30px;
+    height: 30px;
+    margin: 13px;
+    scroll-margin-left: 10px;
+
+}
+.history button{
+    background-color: #ffc02d;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+.task{
+    display: flex;
+    padding: 2px 15px;
+}
+.task img{
+    width: 30px;
+    height: 30px;
+    margin: 13px;
+    scroll-margin-left: 10px;
+
+}
+.task button{
+    background-color: #ffc02d;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+.commuities{
+    display: flex;
+    padding: 2px 15px;
+    margin-bottom: 60px;
+}
+.commuities img{
+    width: 30px;
+    height: 30px;
+    margin: 13px;
+    scroll-margin-left: 10px;
+
+}
+.commuities button{
+    background-color: #ffc02d;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+.settings{
+    display: flex;
+    padding: 2px 15px;
+}
+.settings img{
+    width: 30px;
+    height: 30px;
+    margin: 13px;
+    scroll-margin-left: 10px;
+
+}
+.settings button{
+    background-color: #ffc02d;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+.support{
+    display: flex;
+    padding: 2px 15px;
+}
+.support img{
+    width: 30px;
+    height: 30px;
+    margin: 13px;
+    scroll-margin-left: 10px;
+
+}
+.support button{
+    background-color: #ffc02d;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+.privacy{
+    display: flex;
+    padding: 2px 15px;
+}
+.privacy img{
+    width: 30px;
+    height: 30px;
+    margin: 13px;
+    scroll-margin-left: 10px;
+
+}
+.privacy button{
     background-color: #ffc02d;
     border: none;
     cursor: pointer;
